@@ -20,15 +20,18 @@
     text-align: start;
 }
 .banner-text h1{
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 70px;
     letter-spacing: 0em;
     text-align: left;
 
 }
-.banner-text span{
+.green-text {
+    color: #21B573 !important;
+}
+.red-text{
     color: #FD511A;
 
     font-family: Poppins;
@@ -39,6 +42,13 @@ letter-spacing: 0em;
 text-align: left;
 
 }
+.btn-success {
+    border-radius: 33px;
+    background: #21B573;
+    border: none;
+
+}
+
 
 .banner-img img{
     width: 100%;

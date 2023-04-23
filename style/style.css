@@ -1,25 +1,38 @@
+/* * {
+    border: none !important;
+} */
 .nav-section,
 .navbar {
     /* background-color: #b6dec1      */
     background: #F0FFF0 !important;
 }
+
+section {
+    margin-bottom: 50px;
+    
+}
+
 .top-section {
     background-color: #F0FFF0;
 }
+
 .banner {
-    
+
     height: 576px;
     width: 100%;
     /* width: 1440px; */
     left: 0px;
     top: 0px;
     border-radius: 0px;
+    overflow: hidden;
 
 }
-.banner-text{
+
+.banner-text {
     text-align: start;
 }
-.banner-text h1{
+
+.banner-text h1 {
     /* font-family: Poppins; */
     font-size: 48px;
     font-weight: 900;
@@ -28,20 +41,23 @@
     text-align: left;
 
 }
+
 .green-text {
     color: #21B573 !important;
 }
-.red-text{
+
+.red-text {
     color: #FD511A;
 
     font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
+
 .btn-success {
     border-radius: 33px;
     background: #21B573;
@@ -50,7 +66,92 @@ text-align: left;
 }
 
 
-.banner-img img{
-    width: 100%;
+.banner-img img {
+    /* width: 100%; */
+    /* max-width: fit-content; */
+    max-width: 820px;
+    max-height: 512px;
+    border: 1px solid;
+}
+@media (max-width: 820px) {
+    .banner{
+        flex-direction: column-reverse;
+        /* flex-wrap: wrap; */
+    }
+    .banner-img img {
+        /* width: 100%; */
+        /* max-width: fit-content; */
+        max-width: fit-content;
+        max-height: 312px;
     
+    }
+    
+}
+
+/* Info Section */
+.info-section{
+    border: 1px solid;
+}
+/* .info-inner {
+    border: 2px solid red;
+    width: 290px;
+} */
+.info-section .card{
+    height: 270px;
+    width: 270px;
+    /* left: 135px;
+    top: 618px; */
+    border-radius: 10px;
+    /* margin: 0px 20px; */
+
+    text-align: center;
+}
+.info-section img {
+    width: 66PX;
+    height: 85PX;
+
+}
+/* .info-section .col {
+    background-color: #F0FFF0;
+
+    height: 270px;
+    width: 270px;
+    left: 135px;
+    top: 618px;
+    border-radius: 10px;
+    margin: 0px 20px;
+
+    text-align: center;
+
+    border: 1px solid ;
+
+    box-shadow: 10px 30px 20px lightgray;
+
+} */
+.card-footer {
+    border-top: none;
+    background-color: white;
+}
+.card {
+    border: none;
+    box-shadow: 10px 30px 20px lightgray;
+}
+
+/* testimonial */
+.testimonial {
+    width: 800px;
+    height: 400px;
+}
+
+
+/* main-footer */
+.main-footer {
+    background: #282531;
+
+    color: white;
+
+    /* border: 1px solid yellow; */
+}
+.outer div{
+    /* border: 2px solid white; */
 }

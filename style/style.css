@@ -1,0 +1,46 @@
+.nav-section,
+.navbar {
+    /* background-color: #b6dec1      */
+    background: #F0FFF0 !important;
+}
+.top-section {
+    background-color: #F0FFF0;
+}
+.banner {
+    
+    height: 576px;
+    width: 100%;
+    /* width: 1440px; */
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+.banner-text{
+    text-align: start;
+}
+.banner-text h1{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.banner-text span{
+    color: #FD511A;
+
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.banner-img img{
+    width: 100%;
+    
+}

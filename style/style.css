@@ -71,7 +71,7 @@ section {
     /* max-width: fit-content; */
     max-width: 820px;
     max-height: 512px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 @media (max-width: 820px) {
     .banner{
@@ -89,8 +89,9 @@ section {
 }
 
 /* Info Section */
-.info-section{
-    border: 1px solid;
+.info-section .card{
+    /* border: 1px solid; */
+    background-color:#F0FFF0;
 }
 /* .info-inner {
     border: 2px solid red;
@@ -152,6 +153,15 @@ section {
 
     /* border: 1px solid yellow; */
 }
-.outer div{
+.outer{
     /* border: 2px solid white; */
+    text-align: center;
+    color: white;
+}
+.outer a{
+    color: #21B573;
+}
+a{
+    text-decoration: none;
+    
 }

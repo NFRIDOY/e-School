@@ -1,6 +1,8 @@
 /* * {
     border: none !important;
 } */
+
+/* Navber */
 .nav-section,
 .navbar {
     /* background-color: #b6dec1      */
@@ -58,6 +60,29 @@ section {
 
 }
 
+.signin-btn {
+    background-color: #21B573;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px !important;
+    transition: all 1s ease-in-out 0s ;
+    max-width: 90px;
+}
+.signin-btn:hover {
+    /* background-color: darkgreen; */
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    color: yellow;
+    
+}
+@media (max-width: 576px) {
+    
+}
+
+.btn-style {
+    padding: 10px 20px;
+}
+
 .btn-success {
     border-radius: 33px;
     background: #21B573;
@@ -111,6 +136,14 @@ section {
     width: 66PX;
     height: 85PX;
 
+}
+.card:hover {
+    background-color: white;
+}
+
+.card-icon {
+    width: 30px;
+    height: 30px;
 }
 /* .info-section .col {
     background-color: #F0FFF0;

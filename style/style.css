@@ -75,9 +75,9 @@ section {
     color: yellow;
     
 }
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
     
-}
+} */
 
 .btn-style {
     padding: 10px 20px;
